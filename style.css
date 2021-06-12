@@ -1,0 +1,86 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding:0px 10px;
+    width: 100%;
+}
+.p-main{
+    padding: 5px;
+}
+.main{
+    height: 680px;
+    /* border:1px solid red; */
+    background-color:  rgb(19, 38, 46);
+    color: white;
+
+}
+
+.header{
+height: 100px;
+display: flex;
+align-items: center;
+color: white;
+}
+/* #features{
+    /* border: 1px solid; */
+    /* height: 400px; 
+} */
+.listu{
+    position: absolute;
+        right: 20px;
+}
+.frnt{
+    text-align: center;
+    /* border: 1px solid grey; */
+   
+    display: flex;
+    height: 500px;
+    align-items: center;
+   }
+   a{
+    margin: 10px;
+    color: azure;
+}
+.about{
+    height:400px;
+    padding: 10px;
+    /* border-right: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-about{
+    justify-content:center ;
+    text-align: center;
+    padding: 20px;
+}
+.s-about img{
+    margin: 10px;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 20px;
+}
+.footer{
+    height: 274px;
+}
+.lft,.mdle,.rgt{
+    padding: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:  rgb(19, 38, 46);
+}
+.ftcprt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: rgb(20, 20, 20);
+    color: azure;
+}
+
