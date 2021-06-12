@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style1.css">
+   <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="/Payment-Integration-main/style.css" /> -->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/BOOTSTRAP/css/20-btstp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+    
+    i{
+        margin: 10px;
+    }
+    a{
+        color: white;
+        
+    }
+    a:hover{
+        color: aqua;
+        text-decoration: none;
+    }
+    .baappara{
+        display: flex;
+        justify-content: center;
+        
+        text-align: center;
+    }
+    .upper{
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  right: 15px;
+  position:absolute;
+  
+}
+.menu::after{
+        content: '';
+        display: flex;
+        background: aquamarine;
+        height: 2px;
+        width: 0%;
+        transition: transform .5s ease-in-out;
+        transform: scaleX(0);
+        /* transform-origin: right; */   
+    }
+    .menu:hover::after{
+        width: 100%;
+        transform: scaleX(1);
+    }
+    /* ================================= */
+    .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .menu{
+        display: none;
+    }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*  =====================================*/
+    
+    @media (min-width: 1028px) {
+        .para{
+        width: 60%;
+    }
+   
+ 
+ #black{
+    border-right:4px dashed grey;
+    /* border: 1px solid red; */
+ }
+ 
+ #black2{
+    border-left:4px dashed grey;
+    /* border: 1px solid red; */
+ }
+ .upper{
+    right: 15px;
+    bottom:8px;
+ }
+    }
+h1{
+    /* border: 1px solid red; */
+}
+</style>
+<body>
+    <div class="container-fluid red " id="title">
+        <div class="conatainer p-3">
+            <div class="row main ">
+                <div class="col-lg-12 header">
+                    <h1>Sparks Foundation</h1>
+                    <ul class="listu">
+                        
+<span style="font-size:30px;cursor:pointer"class="sidebtn" onclick="openNav()">&#9776;</span>
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Contact</a>
+                          </div>
+                    </ul>
+                </div>
+                <div class="col-lg-12 frnt">
+                    <div>
+                        
+                        <img src="spark.png" alt="">
+                        <h1>Welcome To Sparks Foundation</h1>
+                    <div class="baappara">
+                <P class="para">The Sparks Foundation (or TSF) is for you. This brand new startup was co-founded by people who believe that every student should have a chance at greatness, and they have created multiple programs to help students reach their maximum potential.</P>
+
+                    </div>
+                    
+                    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HLFWgEOitZUmsA" async> </script> </form>
+
+                    </div>               
+                </div>
+               
+
+            </div>
+            
+            <div class="row" id="features">
+                <div class="col-lg-4 about" id="black">
+                    <div class="s-about">
+                        <img src="food.jpeg" alt="" width="200px" height="200px">
+                        <h3>Food Donation</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 about"id="black1" >
+                    <div class="s-about" >
+                        <img src="donate.jpeg" alt="" width="200px" height="200px">
+                        <h3>Fund Donation</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 about"id="black2" >
+                    <div class="s-about" >
+                        <img src="cloth.jpeg" alt="" width="200px" height="200px">
+                    <h3>Cloth Donation</h3>
+                    </div>
+                         </div>
+            </div>
+            <div class="row footer red p-0" id="contact">
+                <div class="col-lg-4 lft">
+                    <img src="spark.png" height="100px"alt="">
+                </div>
+                <div class="col-lg-4 mdle" id="donate-btn">
+                    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HLFWgEOitZUmsA" async> </script> </form>
+
+                </div>
+                <div class="col-lg-4 rgt">
+                    <a href="https://www.facebook.com/thesparksfoundation.info" class="social-icon fab fa-facebook-square" target="_blank"></a>
+                    <a href="https://www.instagram.com/thesparksfoundation.info" class="social-icon fab fa-instagram" target="_blank"></a>
+                    <a href="https://www.twitter.com/tsfsingapore"class="social-icon fab fa-twitter-square" target="_blank"></a>
+                    <a href="https://t.co/j4ha9fiq3B?amp=1"class="social-icon far fa-envelope" target="_blank"></a>
+                    
+                    <a class="upper fas fa-arrow-up" href="#title">^</a></div>
+                
+        </div>
+        <div class="row ftcprt black">Copyright
+        <i class=" fas fa-copyright    "></i>2021 Spark
+        </div>
+    </div>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        
+</body>
+</html>
